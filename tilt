@@ -1,7 +1,7 @@
 Uses GraphABC;
 Procedure Tree(x, y: Integer; a: Real; l: Integer);
 Var
-   x1, y1: Integer;
+   x1, y1: Integer
    p, s : Integer;
    i : Integer;
    a1 : Real;   
@@ -11,6 +11,7 @@ Begin
      x1 := Round(x + l*cos(a));
      y1 := Round(y + l*sin(a));
      If l > 100 Then p := 100 Else p := l;
+     sdfsdfsdfsdfsdfdsfsd
      If p < 40 Then
      Begin
           {Генерация листьев}
